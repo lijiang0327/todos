@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 30px 16px 16px;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    height: 100vh;
+
+    .listContainer {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px 0 10px;
+        max-height: calc(100% - 120px);
+        overflow-y: auto;
+    }
+}

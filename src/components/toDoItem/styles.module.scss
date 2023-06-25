@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 40px;
+    padding: 0 10px;
+    box-shadow: 4px 4px 16px #ccc;
+    margin-top: 8px;
+
+    .deleteButton {
+        cursor: pointer;
+    }
+
+    .content {
+        flex: 1;
+        padding: 0 12px;
+        overflow: hidden;
+    }
+}
